@@ -1,0 +1,156 @@
+.bg-modal {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-content {
+	width: 500px;
+	height: 400px;
+	background-color: white;
+	border-radius: 30px;
+	position: relative;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
+	
+}
+
+.logo {
+	width: 5%;
+	height: 5%;
+}
+
+.omt {
+	color: orange;
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 0 0 2px rgb(119, 119, 119), 0 0 5px rgb(65, 65, 65);
+	margin-right: 90px;
+	margin-left: 5px;
+}
+
+
+
+.landing {
+  position: relative;
+  padding: 0;
+}
+
+
+.text-block {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  height: 600px;
+  width: 800px;
+  background-color: rgba(255, 128, 0, .85);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2{
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	letter-spacing: -2px;
+}
+
+.landing-text {
+	position: absolute;
+	top: 90px;
+}
+
+.recycle {
+	color: yellow;
+}
+
+.indigo {
+	color: rgb(51, 51, 204);
+	
+}
+
+.about {
+  position: relative;
+  background: url("/images/trpt2.jpg") no-repeat top center/cover;
+  height: 600px;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* Mid Search Bar */
+.search{
+position: relative;
+box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+  
+}
+
+.search input{
+
+ height: 60px;
+ text-indent: 25px;
+ border: 2px solid #d6d4d4;
+}
+
+
+.search input:focus{
+
+ box-shadow: none;
+ border: 2px solid blue;
+}
+
+.search .fa-search{
+
+ position: absolute;
+ top: 20px;
+ left: 16px;
+}
+
+.search button{
+
+ position: absolute;
+ top: 5px;
+ right: 5px;
+ height: 50px;
+ width: 110px;
+ background: #0d6efc;
+
+}
+
+/* Dashboard Table */
+.table-container {
+	padding: 10px;
+	border: 0;
+	border-radius: 25px;
+	
+	
+}
+
+body {
+  --stripe: #d1dde1;
+  
+  --bg: #e1e1e1;
+
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
+}
